@@ -1,0 +1,1 @@
+let favabook = JSON.parse(localStorage.getItem("favorites")) || [];

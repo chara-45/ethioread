@@ -1,0 +1,263 @@
+body {
+ padding :0;
+ margin :0;
+ width: 500px;
+ background-image: linear-gradient( 360deg,#1a1313 ,#01213b);
+ 
+ min-height: 100vh;
+ 
+}
+nav {
+    width: 100%;
+    height :80px;
+    background-color :#428BDC;
+        backdrop-filter: blur(10px);
+    box-shadow :0 5px 20px 0 #48290C;
+    margin-top :0;
+    top: 0;
+    position :fixed;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 0;
+    
+}
+nav li{
+
+margin-top :.8rem;
+}
+nav ul li a{
+    font-size :40px;
+    text-decoration: none;
+    text-align: center;
+
+}
+nav ul li:first-child{
+   position :fixed;
+   left: 3px;
+}
+.a2{
+      position :fixed;
+   right: 10px; 
+}
+.a1{
+    color: white;
+}
+.sidenav{
+    position :fixed;
+    top: 0;
+    right:0;
+    width: 230px;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    font-size :23px;
+    border-radius :10px;
+    border :1px solid black;
+    display: none;
+}
+.sidenav ul{
+    list-style-type :none;
+    margin-top :3rem;
+}
+.sidenav ul li{
+    margin :1rem;
+}
+.sidenav ul li:first-child{
+    text-align :center;
+    
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color: #1DABA6;
+}
+footer{
+    position :fixed;
+
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #f2f2f2;
+    backdrop-filter: blur(10px);
+    font-size :23px;
+    border-radius :10px;
+    border :1px solid black;
+    display: flex;
+}
+footer ul{
+    list-style-type :none;
+    
+    display :flex;
+    
+}
+ footer ul li{
+    margin-bottom: 100px;
+
+    
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+.foota{
+    margin-left :0.3rem;
+    
+}
+
+.foota1{
+    margin-left :3rem;
+    background-color :black;
+
+  
+}
+.foota2{
+    margin-left: 4rem;
+
+}
+    .foota3 {
+    margin-left: 4rem;
+    
+}
+.body{
+    margin-top :6.3rem;
+    margin-bottom: 6.0rem;
+}
+.head{
+    width: 350px;
+    height: 180px;
+   background-image :linear-gradient(#36BEC2,#4BDDA2,#4BCADD);
+   box-shadow :0 0 60px 0 #385B7D;
+  
+    margin-left: 1.6rem;
+    border-radius: 30px;
+         display: flex;
+     justify-content: center;
+     align-items :center;
+}
+.head p{
+
+    text-align :center;
+    font-size: 30px;
+}
+.head button{
+   background-image: linear-gradient(#56C581,#1DABA6
+   );
+    border :none;
+    border-radius :10px;
+}
+.next{
+        width: 350px;
+    height: 300px;
+
+    margin-left:1.5rem;
+    border-radius: 30px;
+  display: flex;
+     justify-content: center;
+     align-items :center;
+     margin-top :3rem;
+     margin-bottom: 3rem;
+     box-shadow :0 0 60px 0 #0a1b2c;
+     background-color :#2647a0;
+}
+.nextt{
+            width: 350px;
+    height: 300px;
+
+    margin-left:1.5rem;
+    border-radius: 30px;
+  display: flex;
+     justify-content: center;
+     align-items :center;
+     margin-top :3rem;
+     margin-bottom: 3rem;
+     box-shadow :0 0 60px 0 #081d31;
+     background-color :#B2D2F0;
+}
+.newnext{
+    display: none;
+}
+img{
+    width: 280px;
+    height :250px;
+    border-radius :20px;
+   
+}
+.search{
+    display :flex;
+    flex-wrap: wrap;
+  
+   margin-left:12px;
+    box-shadow :0 0 60px 0 #385B7D;
+    border-radius :7px;
+   margin-right:5px;
+   background :transparent;
+}
+.searchbook{
+    width: auto;
+    height :auto;
+    border :1px solid black;
+    
+  border-radius :7px;
+    margin-bottom: 10px;
+    font-size :20px;
+    margin-left :5px;
+    text-transform: uppercase;
+    background-color:white;
+}
+.Button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color :#6E93BC;
+    background: #0D4585;
+    border: none;
+    border-radius :10rem;
+    
+}
+ .next p{
+    text-align: center;
+    color: #7a5e83ea;
+    margin-left: 10px;
+    margin-right:50px ;
+ }
+@media  only screen and (min-width: 780px ) {
+    .foota{
+        margin-left:700px;
+    }
+
+.searchbook{
+    width: 500px;
+}
+.head{
+    width: 600px;
+    margin-left: 600px;
+}
+.bookes{
+        width: 600px;
+    margin-left: 300px;
+    margin-top: 10px;
+
+}
+.next{
+    display: block;
+    
+  margin-left: 20rem;
+}
+.newnext{
+    display: flex;
+    justify-content: center;
+     align-items :center;
+  margin-left:20rem;
+  width: 100%;
+}
+.nextt{
+    display: none;
+}
+img{
+ 
+    margin-top: -180px;
+}
+}

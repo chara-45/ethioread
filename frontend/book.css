@@ -1,0 +1,195 @@
+body {
+ padding :0;
+ margin :0;
+  background-image: linear-gradient( 360deg,#1a1313 ,#01213b);
+ 
+ min-height: 100vh;
+}
+nav {
+    width: 100%;
+    height :80px;
+    background-color :#4a90e2;
+    box-shadow :0 5px 20px 0 #48290C;
+    margin-top :0;
+    top: 0;
+    position :fixed;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 0;
+    
+}
+nav li{
+
+margin-top :.8rem;
+}
+nav ul li a{
+    font-size :40px;
+    text-decoration: none;
+    text-align: center;
+
+}
+nav ul li:first-child{
+   position :fixed;
+   left: 3px;
+}
+.a2{
+      position :fixed;
+   right: 10px; 
+}
+.a1{
+    color: white;
+}
+.sidenav{
+    position :fixed;
+    top: 0;
+    right:0;
+    width: 230px;
+    height: 100%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    font-size :23px;
+    border-radius :10px;
+    border :1px solid black;
+    display: none;
+}
+.sidenav ul{
+    list-style-type :none;
+    margin-top :3rem;
+}
+.sidenav ul li{
+    margin :1rem;
+}
+.sidenav ul li:first-child{
+    text-align :center;
+    
+}
+.sidenav ul li a{
+    text-decoration: none;
+    color: #1DABA6;
+}
+footer{
+    position :fixed;
+
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background: #f2f2f2;
+    backdrop-filter: blur(10px);
+    font-size :23px;
+    border-radius :10px;
+    border :1px solid black;
+    display: flex;
+}
+footer ul{
+    list-style-type :none;
+    
+    display :flex;
+    
+}
+ footer ul li{
+    margin-bottom: 100px;
+    
+
+    
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 10px;
+}
+.foota{
+    margin-left :0.3rem;
+    margin-left: 50px;
+    
+}
+.foota1{
+    margin-left :3rem;
+
+}
+.foota2{
+    margin-left: 4rem;
+
+}
+    .foota3 {
+    margin-left: 4rem;
+    
+}
+.book{
+    
+    display: flex;
+    flex-wrap: wrap;
+   font-size :23px;
+       margin-top :7rem;
+       margin-bottom: 6rem;
+}
+.bookshelf{
+
+    width :170px;
+    height: 290px;
+    background-color :#52ABC9;
+    border: 1px solid #769CC7;
+    margin :8px;
+    margin-left :20px;
+     text-align: center;
+      border-radius: 10px;
+      box-shadow :0 0 20px 0#191c4e;
+     
+}
+img{
+    width :150px;
+    height :150px;
+    margin-top: 10px;
+}
+.search{
+    
+    position: fixed;
+  bottom: 100px;
+}
+.search input{
+    width: 300px;
+    height: 40px;
+    font-size: 25px;
+    margin-left:26px ;
+    top: 0;
+    border-radius :10px;
+    outline: none;
+    border: none;
+    background-color :#1AF0C8;
+}
+.search button{
+    width: 50px;
+    height :43px;
+      border-radius :10px;
+    outline: none;
+    border: none;
+    background-color :#1ECBAB;
+}
+.Button{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    color :#6E93BC;
+    background: #0D4585;
+    border: none;
+    border-radius :10rem;
+    
+}
+.favabu{
+    width :40px;
+    height: 20px;
+    border-radius :10px;
+    border :none;
+    background-color :white;
+}
+@media  only screen and (min-width: 780px ) {
+    .foota{
+        margin-left:700px;
+    }
+.search input{
+    width: 980px;
+
+}    
+}
