@@ -1,0 +1,26 @@
+{
+  "name": "ethioread",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/app.js",
+  "scripst": {
+    "start": "node api/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chara-45/ethioread.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/chara-45/ethioread/issues"
+  },
+  "homepage": "https://github.com/chara-45/ethioread#readme",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+
+}
